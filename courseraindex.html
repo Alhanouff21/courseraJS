@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 
-<html>
+<html ng-app="myfirstapp">
     <head>
         <meta charset="utf-8">
         <title>My project Coursera</title>
+        <script src="angular.min.js"></script>
+        <script src="angular.js"></script>
     </head>
     <body>
-        <h1>HELLO</h1>
+        <h1>my first ang project</h1>
+        <div ng-controller="myfirstcontroler">
+        {{sayHello()}}
+        </div>        
     </body>
 </html>
